@@ -3,7 +3,7 @@ cask "mailersend" do
   name "mailersend"
   desc "Command-line interface for the MailerSend API"
   homepage "https://github.com/mailersend/mailersend-cli"
-  version "1.0.5"
+  version "1.0.6"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "mailersend" do
   on_macos do
     on_intel do
       url "https://github.com/mailersend/mailersend-cli/releases/download/v#{version}/mailersend-cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "1b9856184aae4f3e982a2935e9e808fc583b26bf70c63cefaced77cfccd55fb7"
+      sha256 "ef8e8731c6b52b116b0344b07af23d5b90d1539fe2404c4116202419493b8596"
     end
     on_arm do
       url "https://github.com/mailersend/mailersend-cli/releases/download/v#{version}/mailersend-cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "2ec0ba0f0aa0a600162ef78b9b352cb453f48070d7af99a47cdaa4d29f67e3fd"
+      sha256 "19fa31cde92ec4bd480082f8ea78bd14a8ed1cbc143cf5ced37e0fffbc7ca8f0"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/mailersend/mailersend-cli/releases/download/v#{version}/mailersend-cli_#{version}_linux_amd64.tar.gz"
-      sha256 "94cfba1041aba8e8173b07d96899729e7dd35fef50f1ea0418ca569622db2d1d"
+      sha256 "53ebaeb3a79f1aa0094d7862021c6307bd180d89c9dcda0cf8e318c4b35e2dce"
     end
     on_arm do
       url "https://github.com/mailersend/mailersend-cli/releases/download/v#{version}/mailersend-cli_#{version}_linux_arm64.tar.gz"
-      sha256 "0438823d52bcbc7e429573eea4b2edbf0a4c8403b2d7f541ff8f95a6788508a8"
+      sha256 "efd562c8cd19b4c0ed5bf693554db83ef1737520ba5848aa69250e06f0d0a9bf"
     end
   end
 
